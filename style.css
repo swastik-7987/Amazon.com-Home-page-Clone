@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    border: 0.5px solid transparent;
+}
+a:hover{
+    text-decoration: underline;
+}
+.border:hover{
+    border: 0.5px solid rgb(146, 130, 130);
+    border-radius: 5px;
+}
+.navbar{
+    background-color: #0f1111;
+    height: 3.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 3.5rem;
+    width: 7.1rem;
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+}
+.nav-location{
+    color: white;
+}
+.nav-first{
+    font-size: 0.7rem;
+    color: #cccccc;
+    margin-left:17px;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+    display:flex;
+}
+/*3rd box*/
+.nav-search{
+    display: flex;
+    width: 800px;
+    background-color: pink;
+    height: 40px;
+}
+.nav-search:hover{
+    border: 2px solid rgb(237, 88, 13);
+    border-radius: 5px;
+}
+.nav-search input{
+    width: 100%;
+    font-size: 1rem;
+    padding-left: 5px;
+
+}
+.nav-search select{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 1rem;
+    background-color: #cccccc;
+    padding-right: 5px;
+    padding-left: 2px;
+}
+.nav-search button{
+    border-top-right-radius: 5px;
+    width: 45px;
+    font-size: 1.2rem;
+    background-color: rgb(255, 162, 0);
+    border-bottom-right-radius: 5px;
+}
+/*box4*/
+.nav-signin{
+    color:#ffffff;
+}
+.nav-signin p{
+    font-size: 0.7rem;
+}
+span{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.list-button{
+    display: flex;
+}
+.list-button select{
+    height: 50%;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #0f1111;
+    width: 15px;
+}
+/*5th box*/
+.nav-returns{
+    font-size: 0.7rem;
+    color: #ffffff;
+}
+/*6th box */ 
+.nav-cart{
+    display: flex;
+    color: #ffffff;
+    align-items: flex-end;
+}
+.nav-cart button{
+    color: #ffffff;
+    background-color: #0f1111;
+    padding: 0;
+    font-size: 1.5rem;
+}
+/*creating nav-second*/
+.nav-2{
+    height: 40px;
+    background-color:#082141f3 ;
+    display: flex;
+    color: #ffffff;
+}
+.nav-2 a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin: 10px;
+}
+.all{
+    margin: 10px;
+    font-size: 0.9rem;
+    font-weight:700;
+    display: flex;
+}
+/*creating hero section*/
+.hero-section{
+    height: 400px;
+    background-image: url(hero_section.jpg);
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-second{
+    background-color: #ffffff;
+ 
+    width: 100%;
+    margin:20px 20px;
+    padding: 10px 14px;
+    display: flex;
+    justify-content: center;
+}
+.hero-second a{
+    color: #2162a1;
+    text-decoration: none;
+    
+}
+.hero-second a:hover{
+    text-decoration: underline;
+}
+/*items creation*/
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(223, 160, 223, 0.587);
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: space-evenly;
+
+}
+
+
+/* common design for all box */
+.box{
+    background-color: #cccccc;
+    height: 420px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 5px;
+    margin-bottom: 1.6vw;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.items a{
+    text-decoration: none;
+    color: #2162a1;
+}
+.items a:hover{
+    text-decoration: underline;
+}
+/* creating box type 1 start */
+.box-image{
+    background-image: url(games.jpg);
+    background-size: cover;
+    display: block;
+    height: 300px;
+    width: 300px;
+    margin: 10px 0px 10px 10px;
+}
+
+/* for image 2 */
+.box1-image{
+    background-image: url(for_students.jpg);
+    background-size: cover;
+    display: block;
+    height: 300px;
+    width: 300px;
+    margin: 10px 0px 10px 15px;
+}
+
+/* box type 2 style start */
+
+.box2-image{
+    display: block;
+    
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10px 0px 10px 15px;
+}
+/* image setup */
+.box2-img{
+    height: 48%;
+    width: 48%;
+
+}
+#box-2-img1{
+    height: 85%;
+    width: 100%;
+    background-image: url("dress.jpg");
+    background-size: cover;
+}
+#box-2-img2{
+    height: 85%;
+    width: 100%;
+    background-image: url("knits.jpg");
+    background-size: cover;
+}
+#box-2-img3{
+    height: 85%;
+    width: 100%;
+    background-image: url("jackets.jpg");
+    background-size: cover;
+}
+#box-2-img4{
+    height: 85%;
+    width: 100%;
+    background-image: url("jwellery.jpg");
+    background-size: cover;
+}
+/* Box type 2 end */
+
+/* box 3 on style 2 */
+#box-3-img1{
+    height: 85%;
+    width: 100%;
+    background-image: url("backpacks.jpg");
+    background-size: cover;
+}
+#box-3-img2{
+    height: 85%;
+    width: 100%;
+    background-image: url("keyboard_accesories.jpg");
+    background-size: cover;
+}
+#box-3-img3{
+    height: 85%;
+    width: 100%;
+    background-image: url("school_supplies.jpg");
+    background-size: cover;
+}
+#box-3-img4{
+    height: 85%;
+    width: 100%;
+    background-image: url("fai.jpg");
+    background-size: cover;
+}
+/* box 4 on style 2 */
+#box-4-img1{
+    height: 85%;
+    width: 100%;
+    background-image: url("headphones.jpg");
+    background-size: cover;
+}
+#box-4-img2{
+    height: 85%;
+    width: 100%;
+    background-image: url("tablets.jpg");
+    background-size: cover;
+}
+#box-4-img3{
+    height: 85%;
+    width: 100%;
+    background-image: url("gaming.jpg");
+    background-size: cover;
+}
+#box-4-img4{
+    height: 85%;
+    width: 100%;
+    background-image: url("speakers.jpg");
+    background-size: cover;
+}
+.box5-image{
+    background-image: url(bed.jpg);
+    background-size: cover;
+    display: block;
+    height: 300px;
+    width: 300px;
+    margin: 10px 0px 10px 10px;
+}
+.box6-image{
+    background-image: url(electronics.jpg);
+    background-size: cover;
+    display: block;
+    height: 300px;
+    width: 300px;
+    margin: 10px 0px 10px 10px;
+}
+.box7-image{
+    background-image: url(seat.jpg);
+    background-size: cover;
+    display: block;
+    height: 300px;
+    width: 300px;
+    margin: 10px 0px 10px 10px;
+}
+.foot-1{
+    height:49px;
+    background-color: #37475a;
+    color: #ffffff;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot-2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #1d2f3e;
+    height: 350px;
+    color: white;
+    padding-top: 30px;
+}
+.foot-2 p{
+    font: size 1rem;
+    font-weight: 700px;
+    line-height: 30px;
+}
+.foot-2  li,a{
+    color: #dddddd;
+    font-size: 0.87rem;
+    list-style-type: none;
+    font-weight: 600px;
+    line-height: 25px;
+    text-decoration: none;
+}
+.foot-2 div {
+    margin-right: 50px;
+}
